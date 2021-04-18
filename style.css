@@ -1,3 +1,8 @@
+html 
+{
+    font-family: 'Raleway', sans-serif;
+}
+
 div
 {
     display: flex;
@@ -5,3 +10,279 @@ div
     flex-direction: row;
     align-items: flex-end;
 }
+
+#ListeP
+{
+    padding: 0;
+    margin: 0; 
+}
+
+#li1
+{
+    margin-left: 50px;
+    float: left;
+    font-size: 12px;
+}
+
+span
+{
+    color: #0065FC;
+}
+
+
+#Filtre
+{
+    display: flex;
+    margin-right: 65%;
+    padding: 10px;
+
+    
+}
+
+#backG2
+{
+    background-color: #DEEBFF;
+    width: 35px;
+    height: 35px;
+    border-radius: 50px 50px 50px 50px;
+}
+
+#Money
+{
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 15px;
+
+}
+
+#Money2
+{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#Eco
+{
+    border-radius: 40px 40px 40px 40px;
+    background-color: white;
+    display: flex;
+    border-color: #F2F2F2;
+}
+
+#backG3
+{
+    background-color: #DEEBFF;
+    width: 35px;
+    height: 35px;
+    border-radius: 50px 50px 50px 50px;
+}
+
+#Men
+{
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 15px;
+
+}
+
+#Men2
+{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#Fam
+{
+    border-radius: 40px 40px 40px 40px;
+    background-color: white;
+    display: flex;
+    border-color: #F2F2F2;
+}
+
+
+#backG4
+{
+    background-color: #DEEBFF;
+    width: 35px;
+    height: 35px;
+    border-radius: 50px 50px 50px 50px;
+}
+
+#Rom
+{
+    border-radius: 40px 40px 40px 40px;
+    background-color: white;
+    display: flex;
+    border-color: #F2F2F2;
+}
+
+#Heart
+{
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 15px;
+
+}
+
+#Heart2
+{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#backG5
+{
+    background-color: #DEEBFF;
+    width: 35px;
+    height: 35px;
+    border-radius: 50px 50px 50px 50px;
+}
+
+#Ani
+{
+    border-radius: 40px 40px 40px 40px;
+    background-color: white;
+    display: flex;
+    border-color: #F2F2F2;
+}
+
+#Pet
+{
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 15px;
+}
+
+#Pet2
+{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    white-space: nowrap;
+}
+
+
+img
+{
+    width: 180px;
+	height: 100px;
+
+}
+
+section
+{
+    display: flex;
+    justify-content: stretch;
+
+}
+
+#section1
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 50%;
+    background-color: #F2F2F2;
+    border-radius: 30px 30px 30px 30px;
+    
+}
+
+#section2
+{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 25%;
+    background-color: #F2F2F2;
+    border-radius: 30px 30px 30px 30px;
+}
+
+#LogoR
+{
+    width: auto;
+    height: auto;
+}
+
+h1
+{
+    font-size: 17px;
+}
+
+h2
+{
+    font-size: 17px;
+}
+
+h3
+{
+    font-size: 15px;
+}
+
+p
+{
+    font-size: 12px;
+}
+
+i
+{
+    color: #0065FC;
+}
+
+#iblack1
+{
+    color: black;
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 13px;
+}
+
+#backg
+{
+    background-color: #F2F2F2;
+    width: 35px;
+    height: 35px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+#iblack2
+{
+    color: black;
+}
+
+#Rechercher
+{
+    background-color: #0065FC;
+    color: white;
+    border-radius: 0px 10px 10px 0px;
+    border: #0065FC;
+}
+
+form
+{
+    display: flex;
+    height: 35px;
+}
+
+
