@@ -239,7 +239,7 @@ span
     border-radius: 20px 20px 20px 20px;
     background-color: white;
     width: 30%;
-    border: 1px solid white;
+    border: 5px solid white;
     box-sizing: border-box;
 }
 
@@ -283,6 +283,7 @@ span
     margin-right: auto;
     margin-bottom: 1.5%;
     margin-top: 5%;
+    border: 5px solid white;
     border-radius: 20px 20px 20px 20px;
     background-color: white;
     width: 90%;
@@ -314,9 +315,11 @@ span
 
 #section3
 {
-    display: flex;
-    flex-direction: row ;
     padding-top: 3%;
+}
+
+#photoG3
+{
     width: 100%;
 }
 
@@ -324,28 +327,25 @@ span
 {
     display: flex;
     flex-direction: column;
-    margin-right: 3%;
-    margin-left: 3%;
 }
 
 #section3 figure
 {
     border-radius: 20px 20px 20px 20px;
-    width: 100%;
-    margin-right: 3%;
+    border: 1px solid #F2F2F2;
 }
 
 
 #Images2
 {
-    width: 280px;
+    width: 200px;
     height: 300px;
     border-radius: 20px 20px 0px 0px;
 }
 
 #Images3
 {
-    width: 200px;
+    width: 180px;
     height: 100px;
     border-radius: 20px 20px 0px 0px;
 }
@@ -415,7 +415,7 @@ i
 #iblack2
 {
     color: black;
-    padding-left: 50%;
+    padding-left: 20%;
 }
 
 #Rechercher
@@ -430,4 +430,98 @@ form
 {
     display: flex;
     height: 35px;
+}
+
+footer
+{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    background-color:#F2F2F2 ;
+    padding-left: 30px;
+    padding-top: 30px;
+    height: 200px;
+}
+
+
+#footertext
+{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20%;
+    font-size: 13px;
+ 
+}
+
+
+/* Media queries */
+
+@media (max-width: 720px)
+{
+    #Filtre
+    {
+        flex-wrap: wrap;
+    }
+
+    #sectionTC
+    {
+        flex-wrap: wrap-reverse;
+    }
+    
+    #section1
+    {
+        width: 100%;
+        margin: auto;
+    }
+
+    #section1 figure
+    {
+        width: 100%;
+    }
+
+    #section2
+    {
+        width: 100%;
+    }
+
+    #section3
+    {
+        width: 100%;
+        margin: auto;
+    }
+
+    #photoG3
+    {
+        flex-wrap: wrap;
+    }
+
+    #photoG3 figure 
+    {
+        width: 100%;
+        margin: auto;
+        margin-top: 40px;
+    }
+
+    #Images2
+    {
+        height: 150px;
+        width: 100%;
+    }
+
+    #Images3
+    {
+        width: 100%;
+        height: 150px;
+    }
+
+    footer
+    {
+        flex-direction: column;
+        height: auto;
+    }
+
+    b
+    {
+        align-items: flex-start;
+    }
 }
