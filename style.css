@@ -450,6 +450,7 @@ footer
     flex-direction: column;
     margin-right: 20%;
     font-size: 13px;
+    align-items: flex-start;
  
 }
 
@@ -482,12 +483,14 @@ footer
     #section2
     {
         width: 100%;
+        margin-bottom: 20px;
     }
 
     #section3
     {
         width: 100%;
         margin: auto;
+        margin-bottom: 20px;
     }
 
     #photoG3
