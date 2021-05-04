@@ -470,6 +470,7 @@ footer
 /* Media queries */
 
 @media (max-width: 720px)
+
 {
     #Filtre
     {
@@ -543,6 +544,7 @@ footer
 }
 
 @media (min-width: 721px) and (max-width: 1079px)
+
 {
     #Filtre
     {
@@ -597,5 +599,4 @@ footer
         margin-right: auto;
     }
 
-    
 }
