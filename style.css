@@ -259,6 +259,7 @@ span
     margin-left: auto;
     margin-right: auto;
     border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
 }
 
 
@@ -304,6 +305,7 @@ span
     margin-left: 2px;
     margin-right: 2px;
     border-radius: 20px 0px 0px 20px;
+    object-fit: cover;
     
 }
 
@@ -316,6 +318,11 @@ span
 #section3
 {
     padding-top: 3%;
+}
+
+#section3 h3
+{
+    margin-left: 10px;
 }
 
 #photoG3
@@ -341,6 +348,8 @@ span
     width: 200px;
     height: 300px;
     border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
+
 }
 
 #Images3
@@ -348,6 +357,8 @@ span
     width: 180px;
     height: 100px;
     border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
+
 }
 
 #photo1
@@ -441,6 +452,7 @@ footer
     padding-left: 30px;
     padding-top: 30px;
     height: 200px;
+    line-height: 30px;
 }
 
 
@@ -527,4 +539,63 @@ footer
     {
         align-items: flex-start;
     }
+
+}
+
+@media (min-width: 721px) and (max-width: 1079px)
+{
+    #Filtre
+    {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    #sectionTC 
+    {
+        flex-direction: column;
+    }
+
+    #section2
+    {
+        flex-direction: row;
+        width: 100%;
+        margin-top: 20px;
+        
+    }
+
+    #section2 figure
+    {
+        width: 20%;
+        flex-direction: column;
+    }
+
+    #section2 #Images1 
+    {
+        width: 100%;
+        border-radius: 20px 20px 0px 0px;
+        margin: auto
+    }
+
+    #section2 h2
+    {
+        margin: auto
+    }
+
+    #section3
+    {
+        width: 100%;
+    }
+
+    #photoG3
+    {
+        flex-wrap: wrap;
+        width: 77.5%;
+    }
+
+    #footertext 
+    {
+        margin-right: auto;
+    }
+
+    
 }
